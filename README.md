@@ -43,7 +43,7 @@
 ### Run Server
 <code>python manage.py runserver</code>
 
-###</code> Create an app
+### Create an app
 <code>python manage.py startapp APPNAME</code>
 
 ### Create migrations
