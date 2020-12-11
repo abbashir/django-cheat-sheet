@@ -1,8 +1,8 @@
 # django-cheat-sheet
 
-Virtualenvwrapper-win
-# using pip
-pip install virtualenvwrapper-win
+# Virtualenvwrapper-win
+### using pip
+<code>pip install virtualenvwrapper-win</code>
 
 # Create Env
 mkvirtualenv <name>
