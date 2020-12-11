@@ -1,59 +1,59 @@
 # django-cheat-sheet
 
 # Virtualenvwrapper-win
-### using pip
+### Install
 <code>pip install virtualenvwrapper-win</code>
 
-# Create Env
-mkvirtualenv <name>
+### Create Env
+<code>mkvirtualenv <name></code>
 
-# Env List
-Lsvirtualenv
+### Env List
+<code>Lsvirtualenv</code>
 
-# Remove 
-rmvirtualenv <name>
+### Remove 
+<code>rmvirtualenv <name></code>
 
-# Activate
-workon [<name>] or cmd /k  workon [<name>]
+### Activate
+<code>workon [<name>] or cmd /k  workon [<name>]</code>
 
-# Deactivate
-Deactivate
-
-
-
-Freeze Cheat Sheet
-# Install 
-Pip install freeze
-
-# generate text file
-pip freeze > requirements.txt
-
-# install all the dependencies.
-pip install -r requirements.txt
+### Deactivate
+<code>Deactivate</code>
 
 
 
-Django Cheat Sheet
-# Install Django
-pip install Django
+# Freeze Cheat Sheet
+### Install 
+<code>Pip install freeze</code>
 
-# Create your project
-django-admin startproject PROJECTNAME
+### generate text file
+<code>pip freeze > requirements.txt</code>
 
-# Run Server
-python manage.py runserver
+### install all the dependencies.
+<code>pip install -r requirements.txt</code>
 
-# Create an app
-python manage.py startapp APPNAME
 
-# Create migrations
-python manage.py makemigrations
 
-# Run migration
-python manage.py migrate
+# Django Cheat Sheet
+### Install Django
+<code>pip install Django</code>
 
-# Collect Static Files
-python manage.py collectstatic
+### Create your project
+<code>django-admin startproject PROJECTNAME</code>
+
+### Run Server
+<code>python manage.py runserver</code>
+
+###</code> Create an app
+<code>python manage.py startapp APPNAME</code>
+
+### Create migrations
+<code>python manage.py makemigrations</code>
+
+### Run migration
+<code>python manage.py migrate</code>
+
+### Collect Static Files
+<code>python manage.py collectstatic</code>
 
 
 
