@@ -55,6 +55,9 @@
 ### Collect Static Files
 <code>python manage.py collectstatic</code>
 
+### Create Super User
+<code>python manage.py createsuperuser</code>
+
 
 
 
